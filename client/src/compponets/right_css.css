@@ -1,0 +1,28 @@
+.rn_container {
+    display: flex;
+    flex-direction: column;
+}
+a.title_right{
+    color: #838383;
+    font-size: 15px;
+    font-family: Roboto;
+}
+button.btn_login{
+    width: 100px;
+    height: 45px;
+    background-color: #f14d54;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+
+}
+input.input_email{
+    height: 30px;
+}
+input.input_password{
+    height: 30px;
+}
+.rn_container h4 a{
+    color: #838383;
+}

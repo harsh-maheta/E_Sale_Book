@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.img_left{
+   /* margin-top:2% ; */
+    width: 150px;
+    /* margin-left:10% ; */
+}
+.img_down{
+    /* height: 50px;
+    width: 100px;
+    margin-top:20%; */
+     margin-left :40%;
+    /* margin-right: 30%; */
+    width: 150px;
+   
+
+}
+
+.main_header{
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_nav {
+    
+    width: 230px;
+    font-size: 16px;
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_nav a{
+    text-decoration: none;
+    color: #f14d54;
+}
+.div_search{
+    /* margin-top: 92px; */
+    backdrop-filter: brightness(96%); /*gray background */
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 10px auto;
+    
+}
+/* .logo {
+    min-width: 180px;
+    height: 50px;
+} */
+
+/* .div_search.input{
+    left: 50%;
+    position: absolute;
+     left: 50px;
+    
+} */
+/* .search{
+    height: 40px;
+    max-width: 129pX;
+    font-size:16px;
+    background-color: #80BF32;
+} */
+/* .cancle{
+    height: 40px;
+    max-width: 129pX;
+    font-size:16px;
+    background-color: #80BF32;
+} */
+.input_box{
+    height: 40px;
+    border: 1px solid gray;
+
+    border-radius: 5px;
+  
+}
+.input_box::placeholder{
+    color: gray;
+    font-style: italic;
+}
+
+.btn{
+    --width: 115px;
+    margin: 0 10px;
+    font-size: 16px;
+    max-width: calc(var(--width) + 13px);
+    min-width: calc(var(--width) - 15px);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.secondary {
+    background-color: #80BF32;
+    color: white;
+}
+.primary {
+    background-color: #f14d54;
+    color: white;
+}
+.search {
+    height:15px;
+    width: 15px;
+    color: white;
+    fill: white;
+}
+.ul_ {
+    color:#f14d54;
+    float: right;
+    list-style-type: none;
+   margin-right: 90px;
+   font-size: 14px;
+   font-family: Roboto;
+}
+.home_login ul li {
+  display: inline-block;
+}
+.a_{
+    padding: 6px 11px;
+    border: 1px solid;
+}
+div.home_login{
+    text-align: center;
+    margin-top: 20px;
+}
+
+li.li_login {
+    color: #f14d54;
+}
+h4.locaa {
+    /* margin-top: 100px;??????????????? */
+    font-size: 32px;
+    font-family: Roboto;
+    color: #414141;
+    text-align: center;
+}

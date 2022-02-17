@@ -1,0 +1,71 @@
+div.personal_info{
+    position: absolute;
+    left: 80px; 
+    margin-bottom: 5%;
+    
+    
+}
+
+
+h4 a .line_regi1{
+    color: #838383;
+}
+  a .title_regi{
+      font-size: 15px;
+      color: #838383;
+  }
+label .label_first{
+    font: 15px;
+    font-style: italic;
+    color: #414141;
+}
+
+
+div input.first_name{
+    width: 500px;
+    height: 40px;
+    color: #838383;
+}
+label .label_last{
+    font: 15px;
+    font-family: Roboto;
+    color: #414141;
+}
+ div.lastname{
+   position: absolute;
+   left: 55%;
+    bottom:47%;
+
+}
+div input.last_name{
+    width: 500px;
+    height: 40px;
+    color: #838383;
+}
+div input.email_adress_regi{
+    width: 1110px;
+    height: 40px;
+    color: #838383;
+}
+div.password_div{
+    position: absolute;
+    /* margin-bottom:1px; */
+    top: 95%;
+}
+input.password_regi{
+    width: 500px;
+    height: 40px;
+    color: #838383;
+}
+div.confirm_div{
+    position: absolute;
+    left: 55%;
+    /* margin-bottom:1px ; */
+    top: 95%;
+}
+input.confirm_password_regi{
+    width: 500px;
+    height: 40px;
+    color: #838383;
+}
+ 

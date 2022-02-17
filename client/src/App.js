@@ -1,22 +1,26 @@
-// import logo from './logo.svg';
+
 import './App.css';
-import Harsh from './compponets/Harsh';
-import Leftnav from './compponets/Leftnav';
+
 import './compponets/H1.css';
-import Fut from './compponets/Fut';
-import Rightnav from './compponets/Rightnav';
-import Login from './compponets/Login';
+
+import Login_page from './compponets/Login_page';
+import { Routes, Route } from 'react-router-dom'
+import Register from './registerpage/Register';
+
 
 function App() {
   return (
-    <div className="App">
-      <Harsh />
-      {/* <Leftnav />
-      <Rightnav /> */}
-      <Login/>
-      <Fut />
-      
-    </div>
+    <>
+      <div className="App">
+        <Routes>
+          <Route path='login' element={<Login_page />} ></Route>
+          <Route path='register' element={<Register />} > </Route>
+          <Route path='*' element={<Login_page />} > </Route>
+        </Routes>
+
+      </div>
+
+    </>
 
   );
 }

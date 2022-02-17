@@ -7,7 +7,7 @@ function Rightnav(){
 
              <h4>Registered Customers<br></br><a>____________________________________________________</a>
             </h4>
-            {/* <a className="line">__________________________________________________________</a> */}
+         
             
             <a className="title_right">if you have an account with us,please log in.</a><b></b><br></br>
             <label>Email Address*</label>

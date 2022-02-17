@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-.img_left{
+.img_left_regi{
    /* margin-top:2% ; */
     width: 150px;
     /* margin-left:10% ; */
 }
-.img_down{
+.img_down_regi{
     /* height: 50px;
     width: 100px;
     margin-top:20%; */
@@ -18,7 +18,7 @@
 
 }
 
-.main_header{
+.main_header_regi{
     max-width: 1240px;
     width: 100%;
     padding: 0 50px;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.main_nav {
+.main_nav_regi {
     
     width: 230px;
     font-size: 16px;
@@ -37,11 +37,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.main_nav a{
+.main_nav_regi a{
     text-decoration: none;
     color: #f14d54;
 }
-.div_search{
+.div_search_regi{
     /* margin-top: 92px; */
     backdrop-filter: brightness(96%); /*gray background */
     height: 80px;
@@ -76,14 +76,14 @@
     font-size:16px;
     background-color: #80BF32;
 } */
-.input_box{
+.input_box_regi{
     height: 40px;
     border: 1px solid gray;
 
     border-radius: 5px;
   
 }
-.input_box::placeholder{
+.input_box_regi::placeholder{
     color: gray;
     font-style: italic;
 }
@@ -99,22 +99,33 @@
     border-radius: 5px;
     transition: all 0.4s;
 }
+.primary_regi:hover {
+    transform: scale(1.1);
+    fill: #80BF32;
+}
 
-.secondary {
+.secondary_regi {
     background-color: #80BF32;
     color: white;
 }
-.primary {
+.secondary_regi:hover {
+    transform: scale(1.1);
+    fill: #f14d54;
+}
+.primary_regi {
     background-color: #f14d54;
     color: white;
 }
-.search {
+.search_regi {
     height:15px;
     width: 15px;
     color: white;
     fill: white;
 }
-.ul_ {
+/* .search_regi:hover {
+    fill:#f14d54;
+} */
+.ul_regi {
     color:#f14d54;
     float: right;
     list-style-type: none;
@@ -122,34 +133,26 @@
    font-size: 14px;
    font-family: Roboto;
 }
-.home_login ul li {
+.home_login_regi ul li {
   display: inline-block;
 }
-.a_{
+.a_regi{
     padding: 6px 11px;
     border: 1px solid;
 }
-div.home_login{
+div.home_login_regi{
     text-align: center;
     margin-top: 20px;
 }
 
-li.li_login {
+li.li_login_regi {
     color: #f14d54;
 }
-h4.locaa {
+h4.locaa_regi{
     /* margin-top: 100px;??????????????? */
     font-size: 32px;
     font-family: Roboto;
     color: #414141;
     text-align: center;
-}
-.primary:hover {
-    transform: scale(1.1);
-    fill: #80BF32;
-}
-.secondary:hover {
-    transform: scale(1.1);
-    fill:#f14d54;
-
+    margin-top: auto;
 }
